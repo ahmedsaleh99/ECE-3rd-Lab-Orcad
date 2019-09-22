@@ -1,0 +1,147 @@
+
+**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Ahmed Saleh\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20m 0 10u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXERCISE_5
+Q_Q1         N00633 N00674 N00637 Q2N2222
+R_R1         N00633 N00647  10k TC=0,0 
+R_R2         0 N00637  1k TC=0,0 
+R_R3         0 N00674  4.7k TC=0,0 
+R_R4         N00674 N00647  47k TC=0,0 
+C_C2         IN N00674  1u  TC=0,0 
+V_V1         N00647 0 12Vdc
+V_V3         IN 0  
++SIN 0 100m 1k 0 0 0
+C_C3         N00633 OUT  1u  TC=0,0 
+R_R5         0 OUT  10k TC=0,0 
+
+**** RESUMING transient.cir ****
+.END
+
+**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N2222         
+               NPN             
+       LEVEL    1            
+          IS   14.340000E-15 
+          BF  255.9          
+          NF    1            
+         VAF   74.03         
+         IKF     .2847       
+         ISE   14.340000E-15 
+          NE    1.307        
+          BR    6.092        
+          NR    1            
+         ISS    0            
+          RB   10            
+          RE    0            
+          RC    1            
+         CJE   22.010000E-12 
+         VJE     .75         
+         MJE     .377        
+         CJC    7.306000E-12 
+         VJC     .75         
+         MJC     .3416       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  411.100000E-12 
+         XTF    3            
+         VTF    1.7          
+         ITF     .6          
+          TR   46.910000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (  OUT)    0.0000  (N00633)    7.4845 (N00637)     .4546     
+
+(N00647)   12.0000 (N00674)    1.0778 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.839E-04
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   8.21E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .86
+  Total job time (using Solver 1)   =         .14
+

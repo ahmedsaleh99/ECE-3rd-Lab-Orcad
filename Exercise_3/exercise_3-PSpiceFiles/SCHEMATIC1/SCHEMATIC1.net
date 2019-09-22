@@ -1,0 +1,6 @@
+* source EXERCISE_2
+Q_Q1         VCE N00508 0 Q2N3904
+R_R2         N00508 N00581  100k TC=0,0 
+V_VCE         N00612 0 12Vdc
+I_I1         0 N00581 DC 0Adc  
+R_R1         N00612 VCE  10 TC=0,0 

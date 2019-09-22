@@ -1,0 +1,45 @@
+
+**** 09/20/19 23:15:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC_Sweep"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_2\exercise_2-P
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DC_Sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Ahmed Saleh\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_VCE 0 12 0.1 
++ LIN I_I1 40 mA 200 mA 40 mA 
+--------------$
+ERROR(ORPSIM-16152): Invalid number: Error while converting token 'mA' to double value. Token can be a constant or expression
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXERCISE_2
+Q_Q1         VCE N00508 0 Q2N3904
+R_R1         VCE N00612  1 TC=0,0 
+R_R2         N00508 N00581  100k TC=0,0 
+V_VCE         N00612 0 12Vdc
+I_I1         0 N00581 DC 0Adc  
+
+**** RESUMING DC_Sweep.cir ****
+.END
+

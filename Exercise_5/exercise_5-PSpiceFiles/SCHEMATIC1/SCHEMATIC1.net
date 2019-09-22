@@ -1,0 +1,12 @@
+* source EXERCISE_5
+Q_Q1         N00633 N00674 N00637 Q2N2222
+R_R1         N00633 N00647  10k TC=0,0 
+R_R2         0 N00637  1k TC=0,0 
+R_R3         0 N00674  4.7k TC=0,0 
+R_R4         N00674 N00647  47k TC=0,0 
+C_C2         IN N00674  1u  TC=0,0 
+V_V1         N00647 0 12Vdc
+V_V3         IN 0  
++SIN 0 100m 1k 0 0 0
+C_C3         N00633 OUT  1u  TC=0,0 
+R_R5         0 OUT  10k TC=0,0 

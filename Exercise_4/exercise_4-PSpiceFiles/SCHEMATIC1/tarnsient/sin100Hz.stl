@@ -1,0 +1,13 @@
+* D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_4\sin100Hz.stl written on Sat Sep 21 06:00:15 2019
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! sin100Hz Analog
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 32ms
+;!Yrange -1 1
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS sin100Hz SIN( 0 1 100 200u 0 0 )

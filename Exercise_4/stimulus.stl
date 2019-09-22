@@ -1,0 +1,14 @@
+* D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_4\stimulus.stl written on Sat Sep 21 06:22:18 2019
+* by Stimulus Editor -- Serial Number: 0 -- Version 17.2.0
+;!Stimulus Get
+;! sin100Hz Analog vpulse Analog
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 30ms
+;!Yrange -1 1
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS sin100Hz SIN( 0 1 100 0 0 0 )
+.STIMULUS vpulse PULSE( 0 1 0 500u 1m 2m 10m )
