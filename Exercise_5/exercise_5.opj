@@ -50,10 +50,18 @@
          ".\exercise_5-pspicefiles\schematic1\bias.sim"
         (DisplayName "SCHEMATIC1-bias")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\exercise_5-pspicefiles\schematic1\transient.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\exercise_5-pspicefiles\schematic1\transient.sim"
         (DisplayName "SCHEMATIC1-transient")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\exercise_5-pspicefiles\schematic1\ccvvc.sim"
+        (DisplayName "SCHEMATIC1-ccvvc")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\exercise_5-pspicefiles\schematic1\nhh.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\exercise_5-pspicefiles\schematic1\nhh.sim"
+        (DisplayName "SCHEMATIC1-nhh")
         (Type "PSpice Profile"))))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
@@ -104,15 +112,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5.dsn")
-      (Path "Design Resources"
-         "d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5.dsn"
-         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -122,9 +123,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1472 104 445")
-        (Scroll "161 274")
-        (Zoom "206")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1148 104 445")
+        (Scroll "-202 144")
+        (Zoom "112")
         (Occurrence "/"))
       (Path
          "D:\ENGINEERING\STUDENTS\2019-2020\FIRST_TERM\ELECTRONICS-LAB\LAB#1ORCAD\EXERCISE_5\EXERCISE_5.DSN")

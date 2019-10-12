@@ -3,7 +3,7 @@
 @Settings: 1 1
 @General:
 ProfileName= "DC_Sweep" 
-ProfileFile= "DC_Sweep.sim" 
+ProfileFile= "dc_sweep.sim" 
 Connectivity= "SCHEMATIC1.net" 
 NetlistFile= "DC_Sweep.cir" 
 DataFile= "DC_Sweep.dat" 
@@ -39,7 +39,7 @@ Notes=
 +3 "" 
 +4 "0" 
 +5 "12" 
-+6 "0.1" 
++6 ".1" 
 +7 "" 
 @End Analysis
 @Analysis: 3 0

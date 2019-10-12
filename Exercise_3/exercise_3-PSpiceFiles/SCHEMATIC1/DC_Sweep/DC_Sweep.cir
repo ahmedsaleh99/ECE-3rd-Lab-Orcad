@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-DC_Sweep"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_2\exercise_2-PSpiceFiles\SCHEMATIC1\DC_Sweep.sim ] 
+** Profile: "SCHEMATIC1-DC_Sweep"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_3\exercise_3-pspicefiles\schematic1\dc_sweep.sim ] 
 
 ** Creating circuit file "DC_Sweep.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -10,7 +10,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.DC LIN V_VCE 0 12 0.1 
+.DC LIN V_VCE 0 12 .1 
 + LIN I_I1 40u 200u 40u 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 

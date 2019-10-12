@@ -82,25 +82,28 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\exercise_1.dsn")
+         "D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_1&2\exercise_1.dsn")
       (Path "Design Resources"
-         "D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\exercise_1.dsn"
+         "D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_1&2\exercise_1.dsn"
          "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_1&2\exercise_1.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 302"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 302"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1420 52 393")
-        (Scroll "798 1250")
-        (Zoom "314")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1472 104 445")
+        (Scroll "-261 146")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "D:\ENGINEERING\STUDENTS\2019-2020\FIRST_TERM\ELECTRONICS-LAB\LAB#1ORCAD\EXERCISE_1.DSN")
+         "D:\ENGINEERING\STUDENTS\2019-2020\FIRST_TERM\ELECTRONICS-LAB\LAB#1ORCAD\EXERCISE_1&2\EXERCISE_1.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))

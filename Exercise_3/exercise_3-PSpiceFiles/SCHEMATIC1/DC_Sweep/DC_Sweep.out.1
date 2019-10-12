@@ -1,7 +1,7 @@
-
-**** 09/20/19 23:15:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-DC_Sweep"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_2\exercise_2-P
+**** 09/23/19 00:01:54 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-DC_Sweep"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_3\exercise_3-P
 
 
  ****     CIRCUIT DESCRIPTION
@@ -22,10 +22,10 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.DC LIN V_VCE 0 12 0.1 
-+ LIN I_I1 40 mA 200 mA 40 mA 
+.DC LIN V_VCE 0 12 .1 
++ LIN I_I1 40 u 200 u 40 u 
 --------------$
-ERROR(ORPSIM-16152): Invalid number: Error while converting token 'mA' to double value. Token can be a constant or expression
+ERROR(ORPSIM-16152): Invalid number: Error while converting token 'u' to double value. Token can be a constant or expression
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -33,12 +33,12 @@ ERROR(ORPSIM-16152): Invalid number: Error while converting token 'mA' to double
 
 
 **** INCLUDING SCHEMATIC1.net ****
-* source EXERCISE_2
+* source EXERCISE_3
 Q_Q1         VCE N00508 0 Q2N3904
-R_R1         VCE N00612  1 TC=0,0 
 R_R2         N00508 N00581  100k TC=0,0 
 V_VCE         N00612 0 12Vdc
 I_I1         0 N00581 DC 0Adc  
+R_R1         N00612 VCE  10 TC=0,0 
 
 **** RESUMING DC_Sweep.cir ****
 .END

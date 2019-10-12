@@ -684,21 +684,21 @@
             ("pspice_path"	"V_V3")
             ("level"	"0")
             ("model_params"
-                ("VAMPL"
-                    ("value"	"100m")
-                    ("pspice_param"	"VAMPL")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("FREQ"
+                    ("value"	"100k")
+                    ("pspice_param"	"FREQ")
                 )
                 ("VOFF"
                     ("value"	"0")
                     ("pspice_param"	"VOFF")
                 )
-                ("FREQ"
-                    ("value"	"1k")
-                    ("pspice_param"	"FREQ")
-                )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("VAMPL"
+                    ("value"	"100m")
+                    ("pspice_param"	"VAMPL")
                 )
                 ("DC"
                     ("value"	"")

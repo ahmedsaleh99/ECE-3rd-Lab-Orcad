@@ -383,7 +383,7 @@
             ("level"	"0")
             ("model_params"
                 ("DC"
-                    ("value"	"12Vdc")
+                    ("value"	"0")
                     ("pspice_param"	"DC")
                 )
             )

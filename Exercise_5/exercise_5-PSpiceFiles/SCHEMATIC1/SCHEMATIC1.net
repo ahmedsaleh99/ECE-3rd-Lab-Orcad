@@ -7,6 +7,6 @@ R_R4         N00674 N00647  47k TC=0,0
 C_C2         IN N00674  1u  TC=0,0 
 V_V1         N00647 0 12Vdc
 V_V3         IN 0  
-+SIN 0 100m 1k 0 0 0
++SIN 0 100m 100k 0 0 0
 C_C3         N00633 OUT  1u  TC=0,0 
 R_R5         0 OUT  10k TC=0,0 

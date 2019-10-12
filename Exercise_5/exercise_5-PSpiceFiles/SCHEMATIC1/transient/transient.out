@@ -1,7 +1,7 @@
-
-**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+**** 10/03/19 15:46:58 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_5\exercise_5-
 
 
  ****     CIRCUIT DESCRIPTION
@@ -46,9 +46,9 @@ R_R5         0 OUT  10k TC=0,0
 **** RESUMING transient.cir ****
 .END
 
-**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/03/19 15:46:58 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+ ** Profile: "SCHEMATIC1-transient"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_5\exercise_5-
 
 
  ****     BJT MODEL PARAMETERS
@@ -96,9 +96,9 @@ R_R5         0 OUT  10k TC=0,0
            D     .87         
 
 
-**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/03/19 15:46:58 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+ ** Profile: "SCHEMATIC1-transient"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_5\exercise_5-
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -130,9 +130,9 @@ R_R5         0 OUT  10k TC=0,0
 
           JOB CONCLUDED
 
-**** 09/21/19 13:43:17 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+**** 10/03/19 15:46:58 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-transient"  [ d:\engineering\students\2019-2020\first_term\electronics-lab\lab#1orcad\exercise_5\exercise_5-
+ ** Profile: "SCHEMATIC1-transient"  [ D:\Engineering\STUDENTS\2019-2020\First_Term\Electronics-Lab\Lab#1Orcad\Exercise_5\exercise_5-
 
 
  ****     JOB STATISTICS SUMMARY
@@ -142,6 +142,5 @@ R_R5         0 OUT  10k TC=0,0
 
 
 
-  License check-out time            =         .86
-  Total job time (using Solver 1)   =         .14
+  Total job time (using Solver 1)   =         .38
 
